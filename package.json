@@ -1,0 +1,17 @@
+{
+  "name": "kalendarz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node generateApi.js"
+  },
+  "keywords": [],
+  "author": "Patryk Niedźwiedziński",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "kalendarz-swiat-nietypowych-parser": "^1.0.1"
+  }
+}
