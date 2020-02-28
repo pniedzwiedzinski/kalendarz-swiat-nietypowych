@@ -12,10 +12,17 @@ curl "https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/{miesiąc}/
 
 # Przykład dla 1. marca
 curl "https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/3/1.json"
+
+# Przykład dla lutego (cały miesiąc)
+curl "https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/2.json"
+
+# Przykład dla wszystkich świąt (cały rok)
+curl "https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/all.json"
 ```
 
 ## Response
 
+> Notka: W przypadku braku świąt tablica będzie pusta.
 ``` json
 [
     {
