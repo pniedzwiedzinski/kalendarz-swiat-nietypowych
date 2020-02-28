@@ -7,9 +7,9 @@ parsowane przez
 
 ## Sposób użycia
 
-``` js
-curl https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/{miesiąc}/{dzień}.json
+``` sh
+curl "https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/{miesiąc}/{dzień}.json"
 
 # Przykład dla 1. marca
-curl https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/3/1.json
+curl "https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/3/1.json"
 ```
