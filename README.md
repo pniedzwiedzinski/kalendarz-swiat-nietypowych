@@ -13,3 +13,47 @@ curl "https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/{miesiąc}/
 # Przykład dla 1. marca
 curl "https://pniedzwiedzinski.github.io/kalendarz-swiat-nietypowych/3/1.json"
 ```
+
+## Response
+
+``` json
+[
+    {
+        "month": 3,
+        "day": 1,
+        "year": 2020,
+        "name": "Międzynarodowy Dzień Walki przeciwko Zbrojeniom Atomowym"
+    },
+    {
+        "month": 3,
+        "day": 1,
+        "year": 2020,
+        "name": "Światowy Dzień Obrony Cywilnej"
+    },
+    {
+        "month": 3,
+        "day": 1,
+        "year": 2020,
+        "name": "Światowy Dzień Świadomości Autoagresji"
+    },
+    {
+        "month": 3,
+        "day": 1,
+        "year": 2020,
+        "name": "Dzień Puszystych"
+    },
+    {
+        "month": 3,
+        "day": 1,
+        "year": 2020,
+        "name": "Dzień Piegów"
+    },
+    {
+        "month": 3,
+        "day": 1,
+        "year": 2020,
+        "name": "Dzień Żołnierzy Wyklętych"
+    }
+]
+```
+
